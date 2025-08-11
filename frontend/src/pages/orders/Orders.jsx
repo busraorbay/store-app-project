@@ -24,7 +24,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { setLoading, setOrders, setSelectedOrder } from "./orderSlice";
 
 export default function OrdersPage() {
-  // const [orders, setOrders] = useState([]);
 
   const [open, setOpen] = useState(false);
 
@@ -62,7 +61,6 @@ export default function OrdersPage() {
       })
       .catch((error) => {
         console.log(error);
-        // Hata durumunda boş array set et
         dispatch(setOrders([]));
       })
       .finally(() => {

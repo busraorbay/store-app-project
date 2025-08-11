@@ -11,7 +11,6 @@ axios.interceptors.request.use((request) => {
   if (token) request.headers.Authorization = `Bearer ${token}`;
   return request;
 });
-//middleware state üzerinde token bilgisi varsa her talebin header içrisine ekledik server da bunu kontrol edecek. aslında her istek öncesi token ekleniyor. bu sayede axios.get(..) gibi işlemlerde başına token eklemek zorunda kalmıyoruz.
 
 axios.interceptors.response.use(
   (response) => {

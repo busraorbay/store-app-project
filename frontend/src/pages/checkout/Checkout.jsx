@@ -39,7 +39,6 @@ export default function CheckoutPage() {
 
   const [orderId, setOrderId] = useState(0);
   const [loading, setLoading] = useState(false);
-  //sipariş oluştur dediğinde loading olacak
   const dispatch = useDispatch();
 
   function handlePrevious() {

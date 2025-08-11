@@ -9,5 +9,3 @@ export default function AuthGuard() {
   }
   return <Outlet />;
 }
-
-// her şeyden önce calısacak eğer user yoksa kullanıcıyı giriş yapmaya zorluycak!
