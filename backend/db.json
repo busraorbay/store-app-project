@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Mont 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "1.jpg",
+      "price": "2300"
+    },
+    {
+      "id": "2",
+      "title": "Mont 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "2.jpg",
+      "price": "2100"
+    },
+    {
+      "id": "3",
+      "title": "Mont 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "3.jpg",
+      "price": "2400"
+    },
+    {
+      "id": "4",
+      "title": "Mont 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "4.jpg",
+      "price": "1800"
+    },
+    {
+      "id": "5",
+      "title": "Mont 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "5.jpg",
+      "price": "3200"
+    },
+    {
+      "id": "6",
+      "title": "Mont 6",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero repudiandae quod omnis mollitia nam quo, quisquam quidem consectetur molestias ullam id aliquid, nobis, tempore repellendus iure. Vitae, vel fuga.",
+      "image": "6.jpg",
+      "price": "3400"
+    }
+  ],
+  "carts": [
+    {
+      "id": "da81ea9d-83bc-4e0d-8653-a06bc29e9ee1",
+      "customerId": "e30ac1c0-32f5-4e29-b811-7a9af68c2a84",
+      "cartItems": []
+    },
+    {
+      "id": "00f2365d-3d50-44e5-91d4-f688ea4605f5",
+      "customerId": "d3e844b1-c645-489f-bad0-8a64e2a61a34",
+      "cartItems": [
+        {
+          "id": "79c1059c-0750-4dd5-bbcf-b54d78b6fa60",
+          "productId": "6",
+          "quantity": 2
+        },
+        {
+          "id": "c896fa8d-af1a-4605-8869-4e59e2e0113f",
+          "productId": "1",
+          "quantity": 1
+        },
+        {
+          "id": "3e6d6fbe-3faf-4015-96c6-c2d65a489618",
+          "productId": "5",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1f9b7e3e-4061-469f-8acc-1d818641ea40",
+      "username": "busratest",
+      "email": "test@gmail.com",
+      "password": "$2a$10$N4sFM54NM8oLEYp2CM6TJumtH5vDMmmT6F3AhZgYDc55j8DqUPZ9e"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5b79875e-0ec3-4666-94de-97ef2ef4a91e",
+      "username": "busratest",
+      "customerId": "d3e844b1-c645-489f-bad0-8a64e2a61a34",
+      "firstName": "büşra",
+      "lastName": "yalçin",
+      "phone": "0546789324",
+      "city": "Ankara",
+      "orderStatus": "Pending",
+      "orderDate": 1754666733268,
+      "orderItems": [
+        {
+          "id": "9bdf9c93-d4dc-40bc-b529-cef815baad68",
+          "productId": "1",
+          "title": "Mont 1",
+          "price": "2300",
+          "image": "1.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 2300
+    }
+  ]
+}
